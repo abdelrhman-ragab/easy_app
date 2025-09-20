@@ -1,0 +1,39 @@
+import 'package:easy_app/core/theme/app_colors.dart';
+import 'package:easy_app/core/theme/app_icons.dart';
+import 'package:easy_app/core/widget/Custom_Svg.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+class CustomImage extends StatelessWidget {
+  const CustomImage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return CircleAvatar(
+        
+        radius: 60.r,
+        backgroundImage: AssetImage("assets/images/TshapAllonso.jpg"),
+        child: Padding(
+          padding: const EdgeInsets.only(top: 80,left: 80),
+          child: Container(
+            decoration: BoxDecoration(
+               color: AppColors.kwhgit,
+              borderRadius:BorderRadius.circular(16) 
+            ),
+             width: 40.w,
+              height: 40.h,
+             
+            child: Center(
+              child: CustomSvg(path: AppIcons.cameraIcon,
+               width: 25.w,
+                height: 25.h,
+              color: AppColors.KiconCamare,
+                         
+                         
+              ),
+            ),
+          ),
+        ),
+       );
+  }
+}

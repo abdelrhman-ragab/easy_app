@@ -21,4 +21,5 @@ static const KfirstQus =Color(0xff8C8C8C); //first question
 static const Kred2 =Color(0xffC63737);//results screen
 static const KsignOut =Color(0xffABADAC);//تسجيل الخروج
 static const KiconCamare=Color(0xff2A72AD);
+static const Ktexticons=Color(0xff1A201D);
 }
