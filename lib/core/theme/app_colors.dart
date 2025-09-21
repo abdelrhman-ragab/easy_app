@@ -22,4 +22,5 @@ static const Kred2 =Color(0xffC63737);//results screen
 static const KsignOut =Color(0xffABADAC);//تسجيل الخروج
 static const KiconCamare=Color(0xff2A72AD);
 static const Ktexticons=Color(0xff1A201D);
+static const grey6 = Color(0xffE6E9EA);
 }

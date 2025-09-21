@@ -1,5 +1,4 @@
 import 'package:easy_app/core/theme/app_style.dart';
-import 'package:easy_app/core/theme/custom_app_bar.dart';
 import 'package:flutter/material.dart';
 
 // Navigation item widget for menu items

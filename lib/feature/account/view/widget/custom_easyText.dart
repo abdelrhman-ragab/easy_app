@@ -30,7 +30,7 @@ class EasyText extends StatelessWidget {
                 fontFamily: 'Finger Paint',
                 fontSize: 24,
                 fontWeight: FontWeight.w400,
-                color: Colors.blue,
+                color: Colors.black,
               ),
             ),
             // حرف z - أزرق داكن

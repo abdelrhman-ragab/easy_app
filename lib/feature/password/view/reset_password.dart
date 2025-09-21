@@ -2,9 +2,9 @@ import 'package:easy_app/core/helper/my_navgator.dart';
 import 'package:easy_app/core/theme/app_colors.dart';
 import 'package:easy_app/core/theme/app_icons.dart';
 import 'package:easy_app/core/theme/app_style.dart';
-import 'package:easy_app/core/theme/custom_app_bar.dart';
 import 'package:easy_app/core/widget/Custom_Svg.dart';
 import 'package:easy_app/core/widget/buttom.dart';
+import 'package:easy_app/core/widget/custom_app_bar.dart';
 import 'package:easy_app/core/widget/custom_textfiled.dart';
 import 'package:easy_app/feature/password/forget_password.dart';
 import 'package:flutter/material.dart';
@@ -36,7 +36,10 @@ class ResetPassword extends StatelessWidget {
          ],
        ),
        Spacer(flex: 7,),
-       CustomButton(text: "حفظ التعديلات", onPressed: (){}),
+       CustomButton(
+         height: 48.h,
+          width: 335.w,
+        text: "حفظ التعديلات", onPressed: (){}),
         Spacer(flex: 1,),
       ],),
     );

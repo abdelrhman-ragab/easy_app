@@ -2,9 +2,9 @@ import 'package:easy_app/core/helper/my_navgator.dart';
 import 'package:easy_app/core/theme/app_colors.dart';
 import 'package:easy_app/core/theme/app_icons.dart';
 import 'package:easy_app/core/theme/app_style.dart';
-import 'package:easy_app/core/theme/custom_app_bar.dart';
 import 'package:easy_app/core/widget/Custom_Svg.dart';
 import 'package:easy_app/core/widget/buttom.dart';
+import 'package:easy_app/core/widget/custom_app_bar.dart';
 import 'package:easy_app/core/widget/custom_textfiled.dart';
 import 'package:easy_app/feature/password/view/reset_password.dart';
 import 'package:easy_app/feature/personal%20details/view/widget/custom_image.dart';
@@ -47,7 +47,7 @@ class PersonalDetails extends StatelessWidget {
            ],
          ),
          Spacer(flex: 4,),
-         CustomButton(text: 'حفظ التعديلات', onPressed: () {  showDialog(
+         CustomButton(text: 'حفظ التعديلات', height: 48.h, width: 335.w, onPressed: () {  showDialog(
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
@@ -66,6 +66,8 @@ class PersonalDetails extends StatelessWidget {
           actions: [
             CustomButton(
               text: "تم",
+              height: 48.h,
+              width: 335.w,
               onPressed: ()=>MyNavigator.goBack(context),
             )
           ],
@@ -108,6 +110,8 @@ class PersonalDetails extends StatelessWidget {
                   children: [
                     Expanded(
                       child: CustomButton(
+                         height: 48.h,
+                         width: 335.w,
                         text: "تراجع",color: AppColors.Kbottomback,
                         
                         onPressed: () {
@@ -118,6 +122,8 @@ class PersonalDetails extends StatelessWidget {
                     SizedBox(width: 12),
                     Expanded(
                       child: CustomButton(
+                         height: 48.h,
+                        width: 335.w,
                         text: "نعم",
                         onPressed: () {
                           Navigator.pop(context);

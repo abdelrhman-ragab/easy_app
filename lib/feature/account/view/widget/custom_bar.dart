@@ -1,5 +1,6 @@
 import 'package:easy_app/core/theme/app_colors.dart';
 import 'package:easy_app/core/theme/app_icons.dart';
+import 'package:easy_app/core/theme/app_image.dart';
 import 'package:easy_app/core/theme/app_style.dart';
 import 'package:easy_app/feature/account/view/widget/custom_easyText.dart';
 import 'package:flutter/material.dart';
@@ -17,18 +18,18 @@ class CustomBar extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.fill,
-          image: AssetImage("assets/images/surface1.png"))
+          image: AssetImage(Appimages.notficionLogo))
         ),
         height:34.h ,
         width: 28.w,
         child: Container(
-          margin: EdgeInsets.only(bottom: 20,left: 18),
+          margin: EdgeInsets.only(bottom: 15,left: 13),
           decoration: BoxDecoration(
              color: Colors.blue,
             borderRadius: BorderRadius.circular(90)
           ),
-          width: 6.w,
-          height: 10.h,
+          width: 15.w,
+          height: 15.h,
          child: Center(
            child: Text("3",style: TextStyle(
             fontSize: 10,
@@ -42,7 +43,7 @@ class CustomBar extends StatelessWidget {
         padding: const EdgeInsets.only(bottom: 25,left: 35),
         child: Container(
           height: 25.h,
-          width: 65.w,
+          width: 70.w,
           child: Center(
             child: Text("حسابي",
             style: AppStyles.textStyle18w400

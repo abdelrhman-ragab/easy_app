@@ -34,6 +34,11 @@ abstract class AppIcons {
   static const String writeIcon='${_iconPath}write.svg';
   static const String cameraIcon='${_iconPath}camera.svg';
   static const String close='${_iconPath}close.svg';
-   static const String qustion='${_iconPath}Frequently_Asked_Questions.svg';
+  static const String qustion='${_iconPath}Frequently_Asked_Questions.svg';
+  static const String InstagramLogo='${_iconPath}instagram.svg';
+  static const String FaceBookLogo='${_iconPath}facebook.svg';
+  static const String TwitterLogo='${_iconPath}twitter.svg';
+  static const String WhatsAppLogo='${_iconPath}whatsapp.svg';
+  
 }
 

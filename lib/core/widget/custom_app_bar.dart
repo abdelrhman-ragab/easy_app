@@ -13,15 +13,15 @@ class CustomAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 50,right: 15,left: 15,bottom: 20),
+      padding: const EdgeInsets.only(top: 50,right: 20,left: 15,bottom: 20),
       child: Row(
         children: [
-          SizedBox(width: 110.w,),
+          Spacer(flex: 2,),
           Text(
             title ?? "",
             style: AppStyles.textStyle18w400.copyWith(color: AppColors.kblack),
           ),
-          const Spacer(), // بيدفع الأيقونة لليمين
+          const Spacer(flex: 1,), // بيدفع الأيقونة لليمين
           ArrowBackButton()              ],
       ),
     );

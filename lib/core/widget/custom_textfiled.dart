@@ -9,7 +9,8 @@ class CustomTextField extends StatelessWidget {
   final bool obscureText;
   final TextInputType keyboardType;
   final String? iconPath;
-  final double width;
+  final  double width;
+  final int? mixline;
   final double height;
 final Widget? prefixIcon;
   const CustomTextField({
@@ -22,6 +23,7 @@ final Widget? prefixIcon;
     this.width = 340,
     this.height = 56,
     this.prefixIcon,
+    this.mixline,
   });
 
   @override
@@ -30,6 +32,7 @@ final Widget? prefixIcon;
       width: width.w,
       height: height.h,
       child: TextField(
+        maxLines: mixline,
         controller: controller,
         obscureText: obscureText,
         keyboardType: keyboardType,
